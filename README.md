@@ -18,6 +18,6 @@ allprojects {
   In app level `build.gradle` inside `dependencies` add library dependency.
   ```
   dependencies {
-	        implementation 'com.github.nawinkhatiwada:TopSheet:1.0.0-alpha1'
+	        implementation 'com.github.nawinkhatiwada:TopSheet:1.0.0-alpha2'
 	}
 ```
