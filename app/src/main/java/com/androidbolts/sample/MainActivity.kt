@@ -1,10 +1,10 @@
-package com.androidbolts.androidtopsheet
+package com.androidbolts.sample
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.androidbolts.androidtopsheet.R
 import com.androidbolts.topsheet.TopSheetBehavior
 import kotlinx.android.synthetic.main.activity_main.*
 

@@ -32,7 +32,6 @@ import androidx.annotation.StyleRes;
 import androidx.appcompat.app.AppCompatDialog;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
-import com.androidbolts.library.R;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
 /**
