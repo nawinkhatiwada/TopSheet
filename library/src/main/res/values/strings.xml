@@ -1,0 +1,4 @@
+<resources>
+    <string name="top_sheet_behavior" translatable="false">com.androidbolts.topsheet.TopSheetBehavior</string>
+    <string name="top_sheet_auto_close_behavior" translatable="false">com.androidbolts.topsheet.AutoCloseTopSheetBehavior</string>
+</resources>
