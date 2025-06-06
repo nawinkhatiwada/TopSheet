@@ -138,7 +138,7 @@ public class TopSheetDialogOld extends AppCompatDialog {
             // If the provided theme is 0, then retrieve the dialogTheme from our theme
             TypedValue outValue = new TypedValue();
             if (context.getTheme().resolveAttribute(
-                    R.attr.bottomSheetDialogTheme, outValue, true)) {
+                    com.google.android.material.R.attr.bottomSheetDialogTheme, outValue, true)) {
                 themeId = outValue.resourceId;
             } else {
                 // bottomSheetDialogTheme is not provided; we default to our light theme

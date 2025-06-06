@@ -152,7 +152,7 @@ public class TopSheetBehavior<V extends View> extends CoordinatorLayout.Behavior
     public TopSheetBehavior(Context context, AttributeSet attrs) {
         super(context, attrs);
         TypedArray a = context.obtainStyledAttributes(attrs,
-               R.styleable.BottomSheetBehavior_Layout);
+                com.google.android.material.R.styleable.BottomSheetBehavior_Layout);
         setPeekHeight(a.getDimensionPixelSize(
                 com.google.android.material.R.styleable.BottomSheetBehavior_Layout_behavior_peekHeight, 0));
         setHideable(a.getBoolean(com.google.android.material.R.styleable.BottomSheetBehavior_Layout_behavior_hideable, false));

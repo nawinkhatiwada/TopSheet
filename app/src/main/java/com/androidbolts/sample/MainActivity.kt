@@ -6,7 +6,6 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.androidbolts.androidtopsheet.R
 import com.androidbolts.topsheet.TopSheetBehavior
-import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val topSheetContainer = findViewById<View>(R.id.topSheetContainer)
         topSheetBehavior = TopSheetBehavior.from(topSheetContainer)
         button = findViewById(R.id.btn_open_top_sheet)
 
